@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<UserSecretsId>51a6c9bf-7672-4164-848f-d0adea8da2e6</UserSecretsId>
+		<CodeAnalysisRuleSet>..\.sonarlint\truevodevelopment_truevo-onboarding-merchantapplicationcsharp.ruleset</CodeAnalysisRuleSet>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AWSSDK.AppConfigData" Version="3.7.0.43" />
+		<PackageReference Include="Microsoft.Extensions.Configuration" Version="6.0.1" />
+		<PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="6.0.0" />
+		<PackageReference Include="System.Text.Json" Version="6.0.3" />
+	</ItemGroup>
+
+</Project>
